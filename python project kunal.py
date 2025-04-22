@@ -52,7 +52,7 @@ if available_categories:
     plt.title("Beneficiary Breakdown by Category")
     plt.xlabel("Category")
     plt.ylabel("Total Count")
-    plt.xticks(rotation=0)
+    plt.xticks(rotation=0)#
     plt.show()
 else:
     print("None of the category columns found in dataset.")
