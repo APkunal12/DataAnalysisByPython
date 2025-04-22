@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load dataset
+# Load datasets
 file_path = "C:\\Users\\TANISH\\Downloads\\12322927-pythonproject\\excelprojectdata.csv"
 df = pd.read_csv(file_path)
 
